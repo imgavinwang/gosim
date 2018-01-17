@@ -1,0 +1,7 @@
+package trademsg;
+
+message Req{
+  required string   SID = 1;
+  required int32    UserID = 2;
+}
+
